@@ -1,0 +1,53 @@
+{
+  "name": "nodemailer",
+  "description": "Easy to use module to send e-mails, supports unicode and SSL/TLS",
+  "version": "0.6.0",
+  "author": "Andris Reinman",
+  "maintainers": [
+    {
+      "name": "andris",
+      "email": "andris@kreata.ee"
+    }
+  ],
+  "homepage": "http://github.com/andris9/nodemailer",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/andris9/nodemailer.git"
+  },
+  "scripts": {
+    "test": "nodeunit test/"
+  },
+  "main": "./lib/nodemailer",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/andris9/nodemailer/blob/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "directmail": "~0.1.6",
+    "he": "~0.3.6",
+    "mailcomposer": "~0.2.7",
+    "public-address": "~0.1.0",
+    "readable-stream": "~1.1.9",
+    "simplesmtp": "~0.2 || ~0.3"
+  },
+  "devDependencies": {
+    "nodeunit": "*"
+  },
+  "optionalDependencies": {
+    "readable-stream": "~1.1.9"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  },
+  "keywords": [
+    "e-mail",
+    "mime",
+    "email",
+    "mail",
+    "sendmail",
+    "ses",
+    "smtp"
+  ]
+}
